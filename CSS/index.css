@@ -1,3 +1,64 @@
-div{
-    background-color: rgb(253, 255, 227);
+html{
+    font-size:16px;
 }
+
+
+*{
+    box-sizing:border-box;
+    text-align:center;
+    text-decoration: none;
+}
+
+
+body{
+    background-color: #F3F2CF
+
+}
+
+/* fonts and and colours defined below */
+
+h1{
+    font-family: 'Rubik Bubbles', sans-serif;
+    color:#FFE143;
+    font-size: 30rem ;
+}
+
+h2{
+    font-family: 'Abril Fatface', serif;
+    color:#EA5F5C;
+    font-size: 5rem;
+}
+
+p,li{
+    font-family: 'Cabin', sans-serif;
+    color:#1E1E1B;
+
+}
+.project li{
+    font-family: 'Abril Fatface', serif;
+    color:#EA5F5C;
+    font-size: 5rem;
+}
+
+
+.page-section{
+    background-color:#FFE143;
+    max-width: 75%;
+
+}
+
+img{
+    max-width: 50%;
+    height: auto;
+
+}
+
+
+/* 
+eco-bot colours
+#F3F2CF - beige
+#1E1E1B - black
+#EA5F5C - pinky red
+#75852D - olive
+#FFE143 - yellow
+*/
