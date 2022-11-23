@@ -43,7 +43,7 @@ p,li{
 
 .page-section{
     background-color:#FFE143;
-    max-width: 75%;
+    position: relative;
 
 }
 
