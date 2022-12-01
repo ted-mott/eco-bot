@@ -1,7 +1,8 @@
+/* applies to whole document ................................................*/
+
 html{
     font-size:16px;
 }
-
 
 *{
     box-sizing:border-box;
@@ -9,50 +10,173 @@ html{
     text-decoration: none;
 }
 
-
 body{
-    background-color: #F3F2CF
-
+    background-color : #F3F2CF;
+    margin:2vh 0 0;
+    align-items: center;
+    display:flex;
+    flex-direction: column;
 }
 
-/* fonts and and colours defined below */
+/* font choices............................................................. */
+
+h1,h2,h3{
+    font-family: 'Abril Fatface', serif;
+    color:#EA5F5C;
+}
 
 h1{
-    font-family: 'Rubik Bubbles', sans-serif;
-    color:#FFE143;
-    font-size: 5rem ;
+    font-size: 10rem ;
+    letter-spacing: .2rem;
 }
 
 h2{
-    font-family: 'Abril Fatface', serif;
-    color:#EA5F5C;
     font-size: 5rem;
+    letter-spacing: .2rem;
 }
 
-p,li{
+h3{
+    font-size: 3rem;
+    letter-spacing: .2rem;
+}
+
+h4{
+    font-family: 'Cabin', sans-serif;
+    color:#80807a;
+}
+
+p{
     font-family: 'Cabin', sans-serif;
     color:#1E1E1B;
-
-}
-.project li{
-    font-family: 'Abril Fatface', serif;
-    color:#EA5F5C;
-    font-size: 5rem;
 }
 
-
-.page-section{
-    background-color:#FFE143;
-    position: relative;
-
+.text{
+    width:65%;
 }
 
-img{
-    max-width: 50%;
-    height: auto;
+/* index page ................................................................*/
 
+.container{
+    background-color : #F3F2CF;
+    width: 75%;
+    /* height: 95vh; */
+    border-radius: 0rem;
 }
 
+#LandingPage{
+    margin-top: 5vh;
+    display:flex;
+    justify-content: flex-start;
+    align-items:center;
+    flex-direction: column;
+    gap: 5px;
+}
+
+#LogoThatChanges{
+    width:50rem;
+    height:30rem;
+    background-image:url(../images/WebsiteAssets/Logo/Eco-Bot\ Logo\ 1.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 0rem 0rem;
+}
+
+#LogoThatChanges:hover{
+    background-image:url(../images/WebsiteAssets/Logo/Eco-Bot\ Logo\ 2.svg);
+}
+
+.title1{
+    background-image:url(../images/WebsiteAssets/Underline/Underline1.svg);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: 0rem 20rem;
+    margin-top: -5rem;
+}
+
+
+#About{
+    justify-content: flex-start;
+    align-items:center;
+    flex-direction: column;
+    display:flex;
+    margin-top: 2rem;
+    margin-bottom: 6rem;
+}
+
+.title2{
+    background-image:url(../images/WebsiteAssets/Underline/Underline3.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 0rem 10rem;
+}
+
+#ProjectsPage{
+    justify-content: flex-start;
+    align-items:center;
+    flex-direction: column;
+    display:flex;
+    gap:2rem;
+}
+
+.DisplayGrid{
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    display:grid;
+    gap:12rem;
+}
+
+.ProjectCard{
+    width:140%;
+    background-image:url(../images/WebsiteAssets/ProjectScroll/Flair-1.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 0rem 17rem;
+}
+
+.ProjectCard:hover{
+    width:150%;
+    background-image:url(../images/WebsiteAssets/ProjectScroll/Flair-2.svg);
+    background-position: 0rem 16rem;
+}
+
+.ProjectCardImage{
+    width:70%;
+    background-image: url(../images/WebsiteAssets/ProjectScroll/BackCircle.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.title3{
+    background-image:url(../images/WebsiteAssets/Underline/Underline4.svg);
+    background-repeat: no-repeat;
+    background-size: 90%;
+    background-position: 0rem 10rem;
+}
+
+.footer{
+    width:100%;
+    height:5rem;
+    background-color : whitesmoke;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    gap:1rem;
+    margin-top: 25vh;
+}
+
+/* Project pages............................................................. */
+.ProjectImage{
+    max-height: 50vh;
+}
+
+/* 
+#Logo{
+    width: 110%;
+}
+
+#Logo:hover{
+    width: 100%;
+} */
 
 /* 
 eco-bot colours
