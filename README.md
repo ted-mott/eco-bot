@@ -1,2 +1,2 @@
-# eco-bot
+# eco-bot.org
 Blog
